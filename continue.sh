@@ -1,3 +1,6 @@
 #!/bin/bash 
 
-echo "- $(date +'%B %d, %Y')" | tee -a readme.md
+DATE=$(date +'%B %d, %Y')
+echo $DATE | tee -a readme.md
+gaa
+gc -m "Commit added for $DATE"
